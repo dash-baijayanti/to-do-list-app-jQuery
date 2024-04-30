@@ -4,14 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css" type="text/css">
-    <title>Document</title>
+    <title>Mini-Project</title>
 
 </head>
 <body>
-    <img class="my-image">
+    
+    <div class="container">
+     <h1>To do List App</h1>
+     <p><em> click to mark an item off, 
+        click on "X" to delete an item, and drag items to reorder.</em></p>
+        <form name="todolist">
+            <input type="text" id="input" name="todolist"/>
+        <div id="button" onclick="newItem()" >ADD</div>
+        <br/>
+        <ol id="list"></ol>    
+
+        </form>
+    </div>
     
 
-<!-- <script src="jquery-3.7.1.min.js"></script> -->
+<!-- <script src="js/jquery-3.7.1.min.js"></script> -->
 <script
   src="https://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
@@ -20,6 +32,6 @@
   src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"
   integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30="
   crossorigin="anonymous"></script>
-  <script src="script.js"></script>       
+  <script src="js/script.js"></script>       
 </body>
 </html>

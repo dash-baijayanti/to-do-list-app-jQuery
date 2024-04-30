@@ -1,0 +1,58 @@
+.container{
+    padding: 20px;
+    width: 300px;
+    margin: o auto;
+    margin-top: 40px;
+    border-radius: 20px;
+    background-color: rgba(153, 50, 204, 0.612);
+    color: aliceblue;
+    /* align-self: center; */
+}
+
+form{
+    display: inline-block;
+}
+
+input{
+    padding: 4px 15px 4px 5px; 
+}
+ 
+#button{
+    display: inline-block;
+    border-radius: 5px;
+    background-color: rgb(242, 115, 204);
+    color: white;
+    padding: 3px 15px;
+    margin: 2px;
+    width: auto;
+    text-align: center;
+}
+#button:hover{
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+ol{
+    padding-left: 20px;
+}
+ol li{
+    padding: 5px;
+    color: black;
+    background-color: rgba(156, 163, 249, 0.763);
+    border-radius: 5px;
+}
+ol li:nth-child(even){
+ background-color: rgba(246, 152, 238, 0.735);
+ border-radius: 5px;
+ 
+}
+li > crossOutButton{
+    background-color: none;
+    float: right;
+    color: rgb(1, 1, 33);
+    font-weight: 700;
+    cursor: pointer;
+}
+.delete{
+    display: none;
+}
