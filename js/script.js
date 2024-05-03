@@ -29,6 +29,8 @@ function newItem(){
     function deleteListitem(){
         li.addClass('delete');
     }
-    
+
+    // 
+    $('#list').sortable();
 
 }
